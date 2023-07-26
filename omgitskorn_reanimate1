@@ -1,12 +1,6 @@
 -- [[ MyWorld Reanimate W/Tool Fling *THIS IS NOT EPIC's METHOD.* ]] --
 -- [[ Melon has edited, although credit isnt needed, i would love credits for this edit ]] --
 
-game.Players.LocalPlayer.Character["Head"].Transparency = 1 
-game.Players.LocalPlayer.Character["Torso"].Transparency = 1 
-game.Players.LocalPlayer.Character["Left Leg"].Transparency = 1 
-game.Players.LocalPlayer.Character["Right Leg"].Transparency = 1 
-game.Players.LocalPlayer.Character["Left Arm"].Transparency = 1 
-game.Players.LocalPlayer.Character["Right Arm"].Transparency = 1 
 game.Players.LocalPlayer.Character.Head.Anchored = true
 
 for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
