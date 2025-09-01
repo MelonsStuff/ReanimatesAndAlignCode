@@ -1,6 +1,13 @@
 -- [[ MyWorld Reanimate W/Tool Fling *THIS IS NOT EPIC's METHOD.* ]] --
 -- [[ Melon has edited, although credit isnt needed, i would love credits for this edit ]] --
 
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "THIS SCRIPT IS OUTDATED";
+	Text = "IF YOURE USING THIS OUT OF JUST A BASEPLATE IT MIGHT NOT WORK";
+	Icon = "rbxthumb://type=Asset&id=11561641603&w=150&h=150"})
+Duration = 3;
+task.wait(2)
+
 game.Players.LocalPlayer.Character.Head.Anchored = true
 
 for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
